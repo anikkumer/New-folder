@@ -1,0 +1,34 @@
+@media screen and (max-width:1224px) {
+
+      .container-2{
+            display: inline;
+
+      }
+      
+}
+@media only screen and (max-width:600px) {
+
+    .container-1 {
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: stretch;
+    }
+
+    .top-players {
+          justify-content: center;
+    }
+
+    .item {
+          display: block;
+
+    }
+
+    .blog-item {
+          display: block;
+    }
+
+    .list-point {
+          display: block;
+          text-align: center;
+    }
+}
